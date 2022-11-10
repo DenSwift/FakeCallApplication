@@ -17,14 +17,16 @@
 		0539EDE4290BEB2C007288DB /* CallScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0539EDE3290BEB2C007288DB /* CallScreenViewController.swift */; };
 		0539EDE8290BF5D7007288DB /* BlackScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0539EDE7290BF5D7007288DB /* BlackScreenViewController.swift */; };
 		054E4D5129143B2000E07F01 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E4D5029143B2000E07F01 /* ContactTableViewCell.swift */; };
-		057486682915A90E006276E6 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057486672915A90E006276E6 /* Contact.swift */; };
-		0574866A2915A951006276E6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057486692915A951006276E6 /* DataManager.swift */; };
 		0578A9C4291055890072269C /* CallScreenWithPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0578A9C3291055890072269C /* CallScreenWithPhotoViewController.swift */; };
 		0584496A290D30FE00D97613 /* AcceptCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05844969290D30FE00D97613 /* AcceptCallViewController.swift */; };
 		05A0B175290DBD07006238E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A0B174290DBD07006238E2 /* Images.xcassets */; };
 		05A0B179290DBE85006238E2 /* iphone-11-pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05A0B178290DBE85006238E2 /* iphone-11-pro.mp3 */; };
 		05C9B4A7290B1D7500988C38 /* HistroyCallsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C9B4A6290B1D7500988C38 /* HistroyCallsTableViewController.swift */; };
 		05EAB4A9290FD95E002BAF98 /* Iphone Vibration - Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05EAB4A8290FD95E002BAF98 /* Iphone Vibration - Sound.mp3 */; };
+		05F324E3291C163500501B05 /* FakeCall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05F324E1291C163500501B05 /* FakeCall.xcdatamodeld */; };
+		05F324E5291C165900501B05 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F324E4291C165900501B05 /* CoreDataManager.swift */; };
+		05F324F3291C233B00501B05 /* ContactUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F324F1291C233B00501B05 /* ContactUser+CoreDataClass.swift */; };
+		05F324F4291C233B00501B05 /* ContactUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F324F2291C233B00501B05 /* ContactUser+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +42,16 @@
 		0539EDE3290BEB2C007288DB /* CallScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallScreenViewController.swift; sourceTree = "<group>"; };
 		0539EDE7290BF5D7007288DB /* BlackScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackScreenViewController.swift; sourceTree = "<group>"; };
 		054E4D5029143B2000E07F01 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
-		057486672915A90E006276E6 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
-		057486692915A951006276E6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0578A9C3291055890072269C /* CallScreenWithPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallScreenWithPhotoViewController.swift; sourceTree = "<group>"; };
 		05844969290D30FE00D97613 /* AcceptCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptCallViewController.swift; sourceTree = "<group>"; };
 		05A0B174290DBD07006238E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FakeCall/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		05A0B178290DBE85006238E2 /* iphone-11-pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "iphone-11-pro.mp3"; sourceTree = "<group>"; };
 		05C9B4A6290B1D7500988C38 /* HistroyCallsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistroyCallsTableViewController.swift; sourceTree = "<group>"; };
 		05EAB4A8290FD95E002BAF98 /* Iphone Vibration - Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Iphone Vibration - Sound.mp3"; sourceTree = "<group>"; };
+		05F324E2291C163500501B05 /* FakeCall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FakeCall.xcdatamodel; sourceTree = "<group>"; };
+		05F324E4291C165900501B05 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		05F324F1291C233B00501B05 /* ContactUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContactUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		05F324F2291C233B00501B05 /* ContactUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContactUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 				05C9B4A8290B1D7A00988C38 /* SecondScreen */,
 				0539EDE5290BEB36007288DB /* ThirdScreen */,
 				0584496B290D310F00D97613 /* FourthScreen */,
+				0545096E291BF6FD008A35AC /* CoreData */,
 				051D3624290ABC3A0022E892 /* Storyboard */,
 				0561400C290D65CE000C032C /* Sound */,
 				05A0B174290DBD07006238E2 /* Images.xcassets */,
@@ -123,8 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				051D3613290ABB660022E892 /* MainViewController.swift */,
-				057486692915A951006276E6 /* DataManager.swift */,
-				057486672915A90E006276E6 /* Contact.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -146,6 +149,16 @@
 				0527C6F9290DC4BC0074BADC /* Controller */,
 			);
 			path = ThirdScreen;
+			sourceTree = "<group>";
+		};
+		0545096E291BF6FD008A35AC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				05F324E1291C163500501B05 /* FakeCall.xcdatamodeld */,
+				05F324E4291C165900501B05 /* CoreDataManager.swift */,
+				05F324E6291C17FE00501B05 /* Entity */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		0561400C290D65CE000C032C /* Sound */ = {
@@ -189,6 +202,15 @@
 				054E4D5029143B2000E07F01 /* ContactTableViewCell.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		05F324E6291C17FE00501B05 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				05F324F1291C233B00501B05 /* ContactUser+CoreDataClass.swift */,
+				05F324F2291C233B00501B05 /* ContactUser+CoreDataProperties.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,18 +286,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				057486682915A90E006276E6 /* Contact.swift in Sources */,
 				050D668F29118165008387BF /* DownloadMP3.swift in Sources */,
 				05C9B4A7290B1D7500988C38 /* HistroyCallsTableViewController.swift in Sources */,
+				05F324E5291C165900501B05 /* CoreDataManager.swift in Sources */,
 				054E4D5129143B2000E07F01 /* ContactTableViewCell.swift in Sources */,
 				051D3614290ABB660022E892 /* MainViewController.swift in Sources */,
+				05F324F4291C233B00501B05 /* ContactUser+CoreDataProperties.swift in Sources */,
 				0539EDE4290BEB2C007288DB /* CallScreenViewController.swift in Sources */,
 				0578A9C4291055890072269C /* CallScreenWithPhotoViewController.swift in Sources */,
 				051D3610290ABB660022E892 /* AppDelegate.swift in Sources */,
+				05F324F3291C233B00501B05 /* ContactUser+CoreDataClass.swift in Sources */,
 				0510889529114452001C17FC /* AcceptCallWithPhotoVCViewController.swift in Sources */,
 				0584496A290D30FE00D97613 /* AcceptCallViewController.swift in Sources */,
+				05F324E3291C163500501B05 /* FakeCall.xcdatamodeld in Sources */,
 				051D3612290ABB660022E892 /* SceneDelegate.swift in Sources */,
-				0574866A2915A951006276E6 /* DataManager.swift in Sources */,
 				0539EDE8290BF5D7007288DB /* BlackScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +518,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		05F324E1291C163500501B05 /* FakeCall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				05F324E2291C163500501B05 /* FakeCall.xcdatamodel */,
+			);
+			currentVersion = 05F324E2291C163500501B05 /* FakeCall.xcdatamodel */;
+			path = FakeCall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 051D3604290ABB660022E892 /* Project object */;
 }

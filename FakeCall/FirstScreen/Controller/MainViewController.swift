@@ -143,14 +143,13 @@ class MainViewController: UIViewController {
     @IBAction func saveContact(_ sender: UIBarButtonItem) {
         
         let userName = downloadTextInCallScrenn()
-        let userImage = imageView.image
+        let imageData = imageView.image?.jpegData(compressionQuality: 0.1)
         
-        // create a Contact
-        let contact = Contact(title: userName, imageName: userImage!)
-
-        // append it to shared data in the data manager singleton
-        MyContactData.shared.myContacts.append(contact)
-
+        let managedOject = ContactUser()
+        managedOject.title = userName
+        managedOject.userImage = imageData
+        CoreDataManager.shared.saveContext()
+        
         nameTextField.text = ""
         imageView.image = UIImage(named: "unknownUser")
     }
