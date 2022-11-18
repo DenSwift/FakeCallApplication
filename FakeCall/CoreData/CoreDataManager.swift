@@ -15,20 +15,20 @@ class CoreDataManager {
         // setup code
         return instance
     }()
-    
+
     private init() {}
-    
+
      lazy var context: NSManagedObjectContext = {
-        persistentContainer.viewContext
+       // persistentContainer.viewContext
+         return self.persistentContainer.viewContext
     }()
-    
+
     // Description of the entity
     func entityForName(entityName: String) -> NSEntityDescription {
         return NSEntityDescription.entity(forEntityName: entityName, in: context)!
     }
-    
-    // MARK: - Core Data stack
 
+    // MARK: - Core Data stack
     lazy var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "FakeCall")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
@@ -38,10 +38,9 @@ class CoreDataManager {
         })
         return container
     }()
-
+    
     // MARK: - Core Data Saving support
-
-    func saveContext () {
+    func saveContext() {
         let context = persistentContainer.viewContext
         if context.hasChanges {
             do {

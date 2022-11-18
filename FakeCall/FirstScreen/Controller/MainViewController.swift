@@ -144,14 +144,31 @@ class MainViewController: UIViewController {
         
         let userName = downloadTextInCallScrenn()
         let imageData = imageView.image?.jpegData(compressionQuality: 0.1)
-        
+
         let managedOject = ContactUser()
         managedOject.title = userName
-        managedOject.userImage = imageData
+        managedOject.userImage = imageDataScaledToHeight(imageData!, height: 120)
         CoreDataManager.shared.saveContext()
         
         nameTextField.text = ""
         imageView.image = UIImage(named: "unknownUser")
+    }
+    
+    // Optimizing the picture
+    func imageDataScaledToHeight(_ imageData: Data, height: CGFloat) -> Data {
+      let image = UIImage(data: imageData)!
+      let oldHeight = image.size.height
+      let scaleFactor = height / oldHeight
+      let newWidth = image.size.width * scaleFactor
+      let newSize = CGSize(width: newWidth, height: height)
+      let newRect = CGRect(x: 0, y: 0, width: newWidth, height: height)
+
+      UIGraphicsBeginImageContext(newSize)
+      image.draw(in: newRect)
+      let newImage = UIGraphicsGetImageFromCurrentImageContext()
+      UIGraphicsEndImageContext()
+
+      return newImage!.jpegData(compressionQuality: 0.8)!
     }
     
     // Passing a title to label in HistoryTableVC
