@@ -35,6 +35,8 @@ class MainViewController: UIViewController {
         settingsForDownloadImageButton() // 2
         settingsForScheduleCallButton() // 3
         settingsForDisplaysImageViews() // 4
+        
+    
     }
 
     // UISettings for ImageView (1)
