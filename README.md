@@ -1,5 +1,5 @@
 # FakeCallApplication
-Applications for simulating calls
+Application for simulating calls
 
 PREVIEW:
 
